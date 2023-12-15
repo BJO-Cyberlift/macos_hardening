@@ -52,7 +52,7 @@ function SudoUserFilter() {
   esac
 }
 
-function WriteToCsv $RecommendedValue $ReturnedValue() {
+function WriteToCsv () {
   case $Operator in
     "=" )
     if [[ $1 != $2 ]]; then
