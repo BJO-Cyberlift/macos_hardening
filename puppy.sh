@@ -141,7 +141,7 @@ else
   ResultValue="Failed"
 fi
 
-echo $ID,$Category,$SubCategory,$DefaultValue,$RecommendedValue,$ReturnedValue,$ResultValue,$Level,$Severity >> hardeningpuppy_report_0.1.csv
+echo $ID,$Category,$SubCategory,,,,$ResultValue,$Level,$Severity >> hardeningpuppy_report_0.1.csv
 
 
 

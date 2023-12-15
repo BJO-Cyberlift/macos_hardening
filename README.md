@@ -1,25 +1,23 @@
-# Welcome to the macOS Hardening project
+# Bienvenue sur le projet d'audit MacOS
 
-### How to run
+### Comment exécuter le script 
 
-1. Clone or download this repository
-2. Go to `macos_hardening`
+1. Cloner ou télécharger le repo
+2. Dans `macos_hardening`
 ```bash
 cd macos_hardening
 ```
 2. Run this command :
 ```bash
+chmod u+x ./puppy.sh
 ./puppy.sh
 ```
 
-## Documentation
-
-
 ### Apple Documentation
 
-For setting preferences throught `plist` files (Registry method with `defaults` command), I use this [Apple documentation](https://developer.apple.com/documentation/devicemanagement/profile-specific_payload_keys).
+[Apple documentation](https://developer.apple.com/documentation/devicemanagement/profile-specific_payload_keys).
 
 ### CIS Apple macOS Benchmark
 
-This project is mainly based on [CIS Apple macOS 11.0 Benchmark v1.2.0](https://downloads.cisecurity.org/#/)
+Project basé sur le référentiel [CIS Apple macOS 11.0 Benchmark v1.2.0](https://downloads.cisecurity.org/#/)
 
